@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class mainpageVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +20,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreatedd.
     }
     
+    @IBAction func movetoNextPage(_ sender: UIButton) {
+        performSegue(withIdentifier: "leagueVC", sender: self)
+    }
     @IBAction func backtoPreviousVC (previousVC : UIStoryboardSegue)
     {
         
