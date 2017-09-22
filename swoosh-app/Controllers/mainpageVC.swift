@@ -23,6 +23,7 @@ class mainpageVC: UIViewController {
     @IBAction func movetoNextPage(_ sender: UIButton) {
         performSegue(withIdentifier: "leagueVC", sender: self)
     }
+    
     @IBAction func backtoPreviousVC (previousVC : UIStoryboardSegue)
     {
         

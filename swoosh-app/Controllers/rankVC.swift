@@ -9,9 +9,13 @@
 import UIKit
 
 class rankVC: UIViewController {
+    
+    var player : Player!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+    print (player.playerLeague)
 
         // Do any additional setup after loading the view.
     }

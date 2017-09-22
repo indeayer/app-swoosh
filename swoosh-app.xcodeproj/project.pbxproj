@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		515BF3941F7568CA00D720FA /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515BF3931F7568CA00D720FA /* Test.swift */; };
+		51807B531F7535DF00FCB5FB /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51807B521F7535DF00FCB5FB /* Player.swift */; };
 		51C16DE11F6E2492008D6BA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C16DE01F6E2492008D6BA3 /* AppDelegate.swift */; };
 		51C16DE31F6E2492008D6BA3 /* mainpageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C16DE21F6E2492008D6BA3 /* mainpageVC.swift */; };
 		51C16DE61F6E2492008D6BA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C16DE41F6E2492008D6BA3 /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		515BF3931F7568CA00D720FA /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		51807B521F7535DF00FCB5FB /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		51C16DDD1F6E2492008D6BA3 /* swoosh-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swoosh-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C16DE01F6E2492008D6BA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51C16DE21F6E2492008D6BA3 /* mainpageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainpageVC.swift; sourceTree = "<group>"; };
@@ -154,6 +158,8 @@
 		51C16E121F6FB725008D6BA3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				51807B521F7535DF00FCB5FB /* Player.swift */,
+				515BF3931F7568CA00D720FA /* Test.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -295,7 +301,9 @@
 				51C16DE31F6E2492008D6BA3 /* mainpageVC.swift in Sources */,
 				51C16E141F6FBFBF008D6BA3 /* chooseLeaguePageVC.swift in Sources */,
 				51C16E161F6FBFFC008D6BA3 /* rankVC.swift in Sources */,
+				515BF3941F7568CA00D720FA /* Test.swift in Sources */,
 				51C16DE11F6E2492008D6BA3 /* AppDelegate.swift in Sources */,
+				51807B531F7535DF00FCB5FB /* Player.swift in Sources */,
 				51C16E101F6E366F008D6BA3 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
